@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Light Bulb Switch</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 50px;
+      background-color: #222;
+      color: white;
+    }
+
+    img {
+      width: 150px;
+      transition: 0.3s;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .on {
+      background-color: yellow;
+      color: black;
+    }
+
+    .off {
+      background-color: gray;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💡 Light Bulb Switch</h1>
+
+  <img id="bulb" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="Bulb">
+
+  <br>
+  <button id="toggleBtn" class="off">Turn ON</button>
+
+  <script>
+    let isOn = false;
+
+    const bulb = document.getElementById("bulb");
+    const btn = document.getElementById("toggleBtn");
+
+    btn.addEventListener("click", () => {
+      if (isOn) {
+        bulb.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+        btn.textContent = "Turn ON";
+        btn.classList.remove("on");
+        btn.classList.add("off");
+      } else {
+        bulb.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        btn.textContent = "Turn OFF";
+        btn.classList.remove("off");
+        btn.classList.add("on");
+      }
+      isOn = !isOn;
+    });
+  </script>
+
+</body>
+</html>
