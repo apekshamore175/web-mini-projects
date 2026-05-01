@@ -29,6 +29,26 @@ JavaScript date handling
 
 A simple interactive project that simulates turning a light bulb ON and OFF.
 
+🎯 Quiz App
+
+An interactive web-based quiz application that allows users to answer multiple-choice questions and view their score at the end.
+
+Features:
+
+Multiple-choice questions
+Real-time answer selection
+Score calculation and result display
+Simple and responsive UI
+Dynamic question loading using JavaScript
+
+Concepts Used:
+
+DOM manipulation
+Event handling
+Arrays & objects
+Conditional logic
+
+
 Features:
 
 Toggle ON/OFF functionality
@@ -48,6 +68,7 @@ web-mini-projects/
 │── Color Flipper/
 │── Digital Clock/
 │── Light Bulb Switch/
+|── Quiz App/
 │── index.html
 │── README.md
 
@@ -65,9 +86,8 @@ More mini projects will be added regularly, such as:
 To-Do List App
 Calculator
 Weather App
-Quiz App
-🙌 Author
 
+🙌 Author
 apekshamore175
 A student exploring web development and building projects to grow step by step.
 
