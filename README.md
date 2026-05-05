@@ -33,29 +33,9 @@ A simple interactive project that simulates turning a light bulb ON and OFF.
 
 An interactive web-based quiz application that allows users to answer multiple-choice questions and view their score at the end.
 
-Features:
+# 🎯 Random Quote Generator
 
-Multiple-choice questions
-Real-time answer selection
-Score calculation and result display
-Simple and responsive UI
-Dynamic question loading using JavaScript
-
-Concepts Used:
-
-DOM manipulation
-Event handling
-Arrays & objects
-Conditional logic
-
-
-Features:
-
-Toggle ON/OFF functionality
-Visual bulb state change
-Button interaction with dynamic styling
-Beginner-friendly DOM manipulation
-
+A simple and interactive web application that displays random inspirational quotes at the click of a button.
 
 🛠️ Tech Stack
 HTML
@@ -69,6 +49,7 @@ web-mini-projects/
 │── Digital Clock/
 │── Light Bulb Switch/
 |── Quiz App/
+|── Random Quote Generator/
 │── index.html
 │── README.md
 
