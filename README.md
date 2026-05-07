@@ -42,6 +42,15 @@ HTML
 CSS
 JavaScript
 
+🕒 Real Clock
+
+A classic clock project that displays the current time in a realistic clock format.
+
+Features:
+Real-time working clock
+Smooth time updates
+Simple and clean design
+Beginner-friendly JavaScript project
 
 📂 Project Structure
 web-mini-projects/
@@ -50,6 +59,7 @@ web-mini-projects/
 │── Light Bulb Switch/
 |── Quiz App/
 |── Random Quote Generator/
+|── Real Clock/
 │── index.html
 │── README.md
 
